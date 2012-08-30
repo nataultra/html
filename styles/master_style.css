@@ -1,0 +1,51 @@
+body
+{
+	background: url('../images/bkg_face.jpg');
+	font-family: Verdana;
+	color: rgba(50, 50, 50, 0.9);
+}
+li
+{
+	color: blue;
+}
+img
+{
+	border-radius: 195px;
+	opacity: 10;
+}
+div, span, li
+{
+	/* border: 1px solid blue; */
+	border-radius: 45px;
+}
+
+.bigText
+{
+	font-family: Verdana;
+	font-size: 18px;
+	font-style: bold;
+	color: #FF00AA;
+}
+.normalText
+{
+	font-family: Calibri;
+	font-size: 10px;
+	color: blue;
+	opacity: 0.9;
+}
+.header
+{
+	border-radius: 30px;
+	border: 1px solid rgba(255, 255, 255, 0.9);
+	background-color: rgba(220, 220, 150, 0.5);
+	color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	font-family: Calibri, Verdana;
+	text-decoration: 
+}
+.footer
+{
+	font-family: Verdana;
+	font-size: 10px;
+	text-align: center;
+}

@@ -28,35 +28,13 @@ body
 	vlink="#FFFF66";
 */
 }
-div, span, li
-{
-	/* border: 1px solid blue; */
-}
-h1, h3
-{
-	font-family: inherit;
-}
 a
 {
 	color: #CCFFCC;
 }
-p, li
-{
-	text-align: left;
-	color: rgba(0, 0, 0, 1);
-}
 
-
-.text-left-align-block
-{
-	text-align: left;
-	display: inline;
-	border: 1px solid red;
-	float: left;
-}
 .picture
 {
-	border: 1px solid rgba(255, 255, 255, 0.9);
 	border-radius: 45px;
 	opacity: 0.9;
 	display: inline;
@@ -69,21 +47,43 @@ p, li
 {
 	border-radius: 45px;
 	display: inline;
-	margin: 15px;
+	float: left;
+	margin: 35px;
 }
 
-.home-center-text-block
+.text-white-center, .text-black-center, .text-white-left, .text-black-left
+{
+	font-family: Charis, "Times New Roman", Verdana;
+	font-style: italic;
+	font-size: 16pt;
+	font-weight: normal;	
+}
+
+.text-white-center, .text-white-left
+{
+	color: rgba(255, 255, 255, 0.8);	
+}
+.text-black-center, .text-black-left
+{
+	color: rgba(0, 0, 0, 1);
+}
+
+.text-white-left, .text-black-left
+{
+	text-align: left;
+	margin-left: 50px;
+}
+.text-white-center, .text-black-center
+{
+	text-align: center;
+}
+
+.content-center-block
 {
 	border: 1px solid rgba(255, 255, 255, 0.9);
 	background-color: rgba(220, 220, 150, 0.5);
 	border-radius: 45px;
-	color: rgba(255, 255, 255, 0.8);
-	/* text-align: center; */
-	font-family: Charis, "Times New Roman", Verdana;
-	font-style: italic;
-	margin: 15px;
-	padding: 15px;
-	font-size: 18pt;
+	margin: 5px;
 }
  
 .icon
@@ -104,14 +104,18 @@ p, li
 	text-align: center;
 	font-family: Charis, "Times New Roman", Verdana;
 	font-style: italic;
-	font-size: 16pt;
+	font-weight: bolder;
+	font-size: 26pt;
+	margin: 10px;
+	padding: 10px;
 }
 
 .footer
 {
 	font-family: Verdana;
-	font-size: 14pt;
+	font-size: 12pt;
 	text-align: center;
 	font-style: normal;
+	font-weight: normal;
 	padding: 10px;
 }

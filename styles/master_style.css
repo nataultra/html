@@ -1,51 +1,117 @@
+@font-face
+{ 
+        font-family: "neutratextbookitalic";
+        src: url('http://fontsforweb.com/public/fonts/1270/neutratextbookitalic.eot');
+        src: local("NeutrafaceText-BookItalic"), url('http://fontsforweb.com/public/fonts/1270/neutratextbookitalic.ttf') format("truetype");
+}
+@font-face
+{
+	font-family: Charis;
+	src: url("fonts/CharisSIL-R.ttf"); 
+}
+@font-face
+{
+	font-family: Charis;
+	src: url("fonts/CharisSIL-I.ttf");
+	font-style: italic; 
+}
+
 body
 {
-	background: url('../images/bkg_face.jpg');
+	background-image: url('../images/bkg_face.jpg'); 
+	background-size: 350px 400px;
 	font-family: Verdana;
-	color: rgba(50, 50, 50, 0.9);
-}
-li
-{
-	color: blue;
-}
-img
-{
-	border-radius: 195px;
-	opacity: 10;
+	color: rgba(25, 25, 25, 0.9);
+/*
+	link="#FFFF66";
+	alink="#FFCC33";
+	vlink="#FFFF66";
+*/
 }
 div, span, li
 {
 	/* border: 1px solid blue; */
-	border-radius: 45px;
+}
+h1, h3
+{
+	font-family: inherit;
+}
+a
+{
+	color: #CCFFCC;
+}
+p, li
+{
+	text-align: left;
+	color: rgba(0, 0, 0, 1);
 }
 
-.bigText
+
+.text-left-align-block
 {
-	font-family: Verdana;
-	font-size: 18px;
-	font-style: bold;
-	color: #FF00AA;
+	text-align: left;
+	display: inline;
+	border: 1px solid red;
+	float: left;
 }
-.normalText
+.picture
 {
-	font-family: Calibri;
-	font-size: 10px;
-	color: blue;
+	border: 1px solid rgba(255, 255, 255, 0.9);
+	border-radius: 45px;
 	opacity: 0.9;
+	display: inline;
+	max-height: 250px;
+	margin: 5px;
+
 }
-.header
+
+.portrait
 {
-	border-radius: 30px;
+	border-radius: 45px;
+	display: inline;
+	margin: 15px;
+}
+
+.home-center-text-block
+{
 	border: 1px solid rgba(255, 255, 255, 0.9);
 	background-color: rgba(220, 220, 150, 0.5);
+	border-radius: 45px;
+	color: rgba(255, 255, 255, 0.8);
+	/* text-align: center; */
+	font-family: Charis, "Times New Roman", Verdana;
+	font-style: italic;
+	margin: 15px;
+	padding: 15px;
+	font-size: 18pt;
+}
+ 
+.icon
+{
+	border-radius: 5px;
+	border: 5px solid rgba(255, 255, 255, 0.9);
+	max-width: 30px;
+	margin: 10px;
+	vertical-align: text-bottom;
+}
+
+.header, .footer
+{
+	border: 1px solid rgba(255, 255, 255, 0.9);
+	background-color: rgba(220, 220, 150, 0.5);
+	border-radius: 45px;
 	color: rgba(255, 255, 255, 0.8);
 	text-align: center;
-	font-family: Calibri, Verdana;
-	text-decoration: 
+	font-family: Charis, "Times New Roman", Verdana;
+	font-style: italic;
+	font-size: 16pt;
 }
+
 .footer
 {
 	font-family: Verdana;
-	font-size: 10px;
+	font-size: 14pt;
 	text-align: center;
+	font-style: normal;
+	padding: 10px;
 }
